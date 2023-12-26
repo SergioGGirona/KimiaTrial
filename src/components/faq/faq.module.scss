@@ -1,0 +1,57 @@
+.faq {
+  background-color: white;
+  padding: 1rem 0;
+  .question {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100vw;
+      height: 20vh;
+      object-fit: cover;
+      object-position: center 20%;
+    }
+    .textQuestion {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      padding: 1.5rem 1rem;
+      gap: 1rem;
+    }
+    hgroup {
+      h4 {
+        color: #263238;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 24px; /* 120% */
+        text-transform: uppercase;
+        width: 300px;
+      }
+    }
+    div {
+      .ctaQuestion {
+        color: #263238;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 16px;
+        text-transform: uppercase;
+        width: 90%;
+      }
+      a {
+        text-decoration: none;
+        color: #59e4a9;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 16px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

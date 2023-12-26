@@ -31,9 +31,7 @@ export function Benefits() {
           instaladores de placas solares para particulares.
         </p>
       </hgroup>
-      <a id="back-top" href="#top">
-        ¿Tienes dudas? Te llamamos gratis
-      </a>
+      <a href="#top">¿Tienes dudas? Te llamamos gratis</a>
     </div>
   );
 }
