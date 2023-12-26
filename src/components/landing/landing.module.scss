@@ -1,22 +1,14 @@
 .landing {
-  z-index: 1;
   width: 100vw;
-  height: 80vh;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .background {
     background-image: url("../../assets//imagenes/bg_image.jpeg");
-    width: 1398px;
-    height: 844px;
-    left: -542px;
-    z-index: -1;
-
-    position: absolute;
-
     filter: brightness(0.4);
+    transform: scaleX(-1);
   }
 
   img {
@@ -33,7 +25,6 @@
       color: white;
       font-weight: 700;
       font-size: 13px;
-      font: "Open Sans";
     }
   }
   .energiesLogo {
@@ -43,12 +34,12 @@
     justify-content: center;
     background-color: #263238;
     gap: 1rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-top: solid 4px #59e4a9;
     border-bottom: solid 4px #59e4a9;
 
     img {
-      width: 10rem;
+      width: 140px;
     }
   }
 }

@@ -1,8 +1,10 @@
+import { Benefits } from "./components/benefits/benefits";
 import { Landing } from "./components/landing/landing";
 function App() {
   return (
     <>
-      <Landing></Landing>
+      <Landing />
+      <Benefits />
     </>
   );
 }
