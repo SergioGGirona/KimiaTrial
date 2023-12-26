@@ -31,6 +31,10 @@
       }
     }
     hgroup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       h2 {
         color: #263238;
         text-align: center;
@@ -49,6 +53,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        width: 90%;
       }
     }
   }
