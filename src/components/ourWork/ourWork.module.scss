@@ -1,0 +1,85 @@
+.ourWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1.5rem;
+
+  .vLine {
+    border-left: thick solid #59e4a9;
+    height: 50%;
+    left: 15%;
+    position: absolute;
+    background: #59e4a9;
+  }
+  h2 {
+    color: #1b252e;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .workProcess {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    z-index: 1;
+    .steps {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      gap: 1.5rem;
+      z-index: 1;
+      .step {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+        color: white;
+        background-color: #1b252e;
+        fill: #263238;
+        border: solid 3px #59e4a9;
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        i {
+          font-size: 2rem;
+        }
+      }
+    }
+    p {
+      color: #263238;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 18px;
+      text-transform: uppercase;
+      width: 180px;
+    }
+    .specificWidth {
+      width: 120px;
+    }
+    .specificWidth2 {
+      width: 140px;
+    }
+  }
+  a {
+    text-decoration: none;
+    justify-self: center;
+    color: #1b2e36;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 187.5% */
+    border-radius: 8px;
+    background: #59e4a9;
+    text-transform: uppercase;
+    width: 349px;
+    padding: 1.5rem 0;
+    border: none;
+  }
+}

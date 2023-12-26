@@ -2,7 +2,7 @@ import styles from "./benefits.module.scss";
 export function Benefits() {
   return (
     <div className={styles.benefits}>
-      <h2>Beneficios de solaria</h2>
+      <h2>BENEFICIOS DE SOLARIA</h2>
       <hgroup>
         <h3>Comparamos objetivamente</h3>
         <p>
