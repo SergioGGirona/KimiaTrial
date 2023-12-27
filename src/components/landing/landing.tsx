@@ -10,10 +10,9 @@ import styles from "./landing.module.scss";
 export function Landing() {
   return (
     <>
-      <div className={styles.landing}>
-        <div className={styles.background}></div>
+      <section className={styles.landing}>
         <img src={solariaLogo} alt="Solaria logo" />
-        <Form></Form>
+        <Form />
         <div className={styles.secureLogo}>
           <i
             className="fa-solid fa-lock"
@@ -21,14 +20,15 @@ export function Landing() {
           ></i>
           <span>Formulario seguro</span>
         </div>
-        <div className={styles.energiesLogo}>
-          <img src={holaLuzLogo} alt="Logotipo Holaluz" />
-          <img src={naturgyLogo} alt="Logotipo Naturgy" />
-          <img src={endesaLogo} alt="Logotipo Endesa" />
-          <img src={repsolLogo} alt="Logotipo Repsol" />
-          <img src={iberdrolaLogo} alt="Logotipo Iberdrola" />
-          <img src={totalEnergiesLogo} alt="Logotipo TotalEnergies" />
-        </div>
+      </section>
+
+      <div className={styles.energiesLogo}>
+        <img src={holaLuzLogo} alt="Logotipo Holaluz" />
+        <img src={naturgyLogo} alt="Logotipo Naturgy" />
+        <img src={endesaLogo} alt="Logotipo Endesa" />
+        <img src={repsolLogo} alt="Logotipo Repsol" />
+        <img src={iberdrolaLogo} alt="Logotipo Iberdrola" />
+        <img src={totalEnergiesLogo} alt="Logotipo TotalEnergies" />
       </div>
     </>
   );
