@@ -46,107 +46,41 @@
     border-radius: 50%;
     z-index: 1;
   }
-  h2 {
-    color: #000;
-    margin: 0.5rem 0;
-    text-align: center;
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 90%;
-    font-variant: all-small-caps;
-  }
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    .icon {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #d9d9d9;
-      width: 120px;
-      height: 120px;
-      margin: 0.5rem;
-      img {
-        width: 50px;
-        cursor: pointer;
-      }
-      input {
-        display: none;
-        &:checked + label {
-          border-bottom: 2px solid #59e4a9;
-        }
-      }
-      label {
-        color: #000;
-        text-align: center;
-        font-family: Open Sans;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        cursor: pointer;
-      }
-    }
-    icon:checked {
-      border: 2px solid #59e4a9;
-    }
-    .stepBar {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: flex-start;
-      gap: 1rem;
-      padding: 1.5rem 0;
-      border-bottom: solid 1px #e3e3e3;
-      width: 100%;
-      .bar {
-        width: 300px;
-        height: 10px;
-        border-radius: 4px;
-        background: #e3e3e3;
-      }
-      .bar::before {
-        content: "";
-        width: 150px;
-        height: 10px;
-        border-radius: 4px;
-        background-color: #59e4a9;
-        transform: translate(-75px, 0);
-      }
-
-      p {
-        color: #000;
-        text-align: center;
-        font-family: "Montserrat";
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-    }
-    .stepBar::before {
-      content: "";
-    }
-  }
   .next {
     display: flex;
     padding: 0.5rem 1rem;
     align-items: center;
     justify-content: center;
     align-self: flex-end;
-    p {
-      color: #000;
-      text-align: center;
-      font-family: Open Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    i {
+      width: 16.444px;
+      color: black;
+      border: none;
+      background-color: #ffffff00;
     }
+  }
+  .endForm {
+    cursor: pointer;
+
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform: translate(120px, 0);
     i {
       width: 16.444px;
       color: black;
