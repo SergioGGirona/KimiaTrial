@@ -1,3 +1,4 @@
+import { showAnimation } from "../service/animateForm";
 import styles from "./freeStudy.module.scss";
 export function FreeStudy() {
   return (
@@ -18,7 +19,7 @@ export function FreeStudy() {
         </hgroup>
       </div>
 
-      <a href="#top">Quiero mi estudio gratuito</a>
+      <a onClick={() => showAnimation()}>Quiero mi estudio gratuito</a>
     </section>
   );
 }

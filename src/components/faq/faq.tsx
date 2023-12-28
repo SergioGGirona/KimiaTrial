@@ -2,6 +2,7 @@ import houseImage from "../../assets/imagenes/aerial-view-private-house-with-sol
 import womenHappy from "../../assets/imagenes/joven-emocionada-sostiene-carta-papel-siente-euforica-al-recibir-ascenso-laboral-o-reembolso-impuestos-banco-mujer-feliz-leyendo-documento-papeleo-sonriendo-buenas-noticias-agradables-obteniendo-beca-estudiantes.jpg";
 import signPaper from "../../assets/imagenes/mano-pone-sello-aprobado-documento.jpg";
 import ecoStudy from "../../assets/imagenes/proyectos-ambientales-planificacion-femenina.jpg";
+import { showAnimation } from "../service/animateForm";
 import styles from "./faq.module.scss";
 export function Faq() {
   return (
@@ -27,7 +28,7 @@ export function Faq() {
           </hgroup>
           <div>
             <p className={styles.ctaQuestion}>¿Quieres más información?</p>
-            <a href="#top">
+            <a onClick={() => showAnimation()}>
               Consúltanos <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -52,7 +53,7 @@ export function Faq() {
           </hgroup>
           <div>
             <p className={styles.ctaQuestion}>¿Necesitas más detalles?</p>
-            <a href="#top">
+            <a onClick={() => showAnimation()}>
               Te llamamos <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -83,7 +84,7 @@ export function Faq() {
             <p className={styles.ctaQuestion}>
               ¿Quieres saber qué más necesitas?
             </p>
-            <a href="#top">
+            <a onClick={() => showAnimation()}>
               Te lo contamos <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -111,7 +112,7 @@ export function Faq() {
             <p className={styles.ctaQuestion}>
               ¿Quieres comprobar si puedes acceder a ellas?
             </p>
-            <a href="#top">
+            <a onClick={() => showAnimation()}>
               Aclaramos tus dudas <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>

@@ -1,5 +1,6 @@
 import callCenter from "../../assets/imagenes/retrato-mujer-trabajadora-servicio-al-cliente.jpg";
 import solariaLogo from "../../assets/solaria-logo.svg";
+import { showAnimation } from "../service/animateForm";
 import styles from "./footer.styles.module.scss";
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <img src={callCenter} alt="Mujer trabajadora de atención al cliente" />
         <div className={styles.ctaText}>
           <p>¿Te quedan preguntas?</p>
-          <a href="#top">Te llamamos gratis</a>
+          <a onClick={() => showAnimation()}>Te llamamos gratis</a>
         </div>
       </div>
       <div className={styles.politics}>
