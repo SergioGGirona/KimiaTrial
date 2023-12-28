@@ -4,6 +4,7 @@ import diegoImage from "../../assets/imagenes/hombre-mediana-edad-chaqueta-riend
 import beatrizImage from "../../assets/imagenes/mi-lema-siempre-ha-sido-ser-audaz-retrato-empresaria-madura-sentada-oficina.jpg";
 import manuelImage from "../../assets/imagenes/portrait-young-man-street.jpg";
 import martaImage from "../../assets/imagenes/retrato-abuela-sonriente-imagen-ilustracion-hermosa-ia-generativa.jpg";
+import { showAnimation } from "../service/animateForm";
 import styles from "./opinions.module.scss";
 
 export function Opinions() {
@@ -89,7 +90,7 @@ export function Opinions() {
           <a href="#op_4"></a>
         </li>
       </ul>
-      <a href="#top" className={styles.button}>
+      <a className={styles.button} onClick={() => showAnimation()}>
         ¿Tienes dudas? Te llamamos gratis
       </a>
     </section>

@@ -1,4 +1,5 @@
 import familyImage from "../../assets/imagenes/smiling-family-standing-front-their-home-with-solar-panels-installed-rooftop.jpg";
+import { showAnimation } from "../service/animateForm";
 import styles from "./benefits.module.scss";
 export function Benefits() {
   return (
@@ -37,7 +38,7 @@ export function Benefits() {
             instaladores de placas solares para particulares.
           </p>
         </hgroup>
-        <a href="#top">¿Tienes dudas? Te llamamos gratis</a>
+        <a onClick={() => showAnimation()}>¿Tienes dudas? Te llamamos gratis</a>
       </div>
     </div>
   );

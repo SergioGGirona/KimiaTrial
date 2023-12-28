@@ -1,4 +1,5 @@
 import spainImage from "../../assets/imagenes/spain.svg";
+import { showAnimation } from "../service/animateForm";
 import styles from "./ourWork.module.scss";
 
 export function OurWork() {
@@ -41,7 +42,7 @@ export function OurWork() {
           </div>
         </div>
 
-        <a id="back-top" href="#top">
+        <a id="back-top" onClick={() => showAnimation()}>
           Descubre cómo
         </a>
       </section>
@@ -54,12 +55,12 @@ export function OurWork() {
             cualificados para asegurar la excelencia en todas las instalaciones.
             Selecciona tu provincia para continuar con el proceso.
           </p>
-          <a href="#top" className={styles.specificLink}>
+          <a className={styles.specificLink} onClick={() => showAnimation()}>
             Empieza ahora
           </a>
         </hgroup>
         <img src={spainImage} alt="Esquema del mapa de España" />
-        <a href="#top">Empieza ahora</a>
+        <a onClick={() => showAnimation()}>Empieza ahora</a>
       </section>
     </>
   );
