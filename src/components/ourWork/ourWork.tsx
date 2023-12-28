@@ -6,65 +6,46 @@ export function OurWork() {
     <>
       <section className={styles.ourWork}>
         <h2>¿Cómo funcionamos?</h2>
-        <div className={styles.workProcess}>
-          <div className={styles.steps}>
-            <div className={styles.step}>
-              <i className="fa-solid fa-pen-nib" title="Pluma de escritura"></i>
-            </div>
+        <div className={styles.steps}>
+          <div className={styles.step}>
+            <i className="fa-solid fa-pen-nib" title="Pluma de escritura"></i>
             <p className={styles.specificWidth}>Nos das tus datos</p>
           </div>
-        </div>
 
-        <div className={styles.workProcess}>
-          <div className={styles.steps}>
-            <div className={styles.step}>
-              <i className="fa-solid fa-phone" title="Teléfono"></i>
-            </div>
+          <div className={styles.step}>
+            <i className="fa-solid fa-phone" title="Teléfono"></i>
+            <p className={styles.specificWidth2}>
+              Nos ponemos en contacto contigo
+            </p>
           </div>
-          <p className={styles.specificWidth2}>
-            Nos ponemos en contacto contigo
-          </p>
-        </div>
 
-        <div className={styles.workProcess}>
-          <div className={styles.steps}>
-            <div className={styles.step}>
-              <i className="fa-solid fa-handshake" title="Saludo"></i>
-            </div>
+          <div className={styles.step}>
+            <i className="fa-solid fa-handshake" title="Saludo"></i>
             <p>Determinamos juntos la mejor opción solar para ti</p>
           </div>
-        </div>
 
-        <div className={styles.workProcess}>
-          <div className={styles.steps}>
-            <div className={styles.step}>
-              <i
-                className="fa-solid fa-file-lines"
-                title="Candado de formulario seguro"
-              ></i>
-            </div>
+          <div className={styles.step}>
+            <i
+              className="fa-solid fa-file-lines"
+              title="Candado de formulario seguro"
+            ></i>
             <p>Gestionamos el papeleo de tus subvenciones</p>
           </div>
-        </div>
 
-        <div className={styles.workProcess}>
-          <div className={styles.steps}>
-            <div className={styles.step}>
-              <i
-                className="fa-solid fa-solar-panel"
-                title="Candado de formulario seguro"
-              ></i>
-            </div>
+          <div className={styles.step}>
+            <i
+              className="fa-solid fa-solar-panel"
+              title="Candado de formulario seguro"
+            ></i>
             <p>¡Instalamos!</p>
           </div>
         </div>
 
-        <div className={styles.vLine} />
         <a id="back-top" href="#top">
           Descubre cómo
         </a>
       </section>
-      <section className={styles.ourWork}>
+      <section className={styles.coverage}>
         <hgroup>
           <h2>Trabajamos con instaladores en todo el país</h2>
           <p>
@@ -73,6 +54,9 @@ export function OurWork() {
             cualificados para asegurar la excelencia en todas las instalaciones.
             Selecciona tu provincia para continuar con el proceso.
           </p>
+          <a href="#top" className={styles.specificLink}>
+            Empieza ahora
+          </a>
         </hgroup>
         <img src={spainImage} alt="Esquema del mapa de España" />
         <a href="#top">Empieza ahora</a>
