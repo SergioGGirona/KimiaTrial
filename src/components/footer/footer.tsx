@@ -13,11 +13,18 @@ export function Footer() {
       </div>
       <div className={styles.politics}>
         <img src={solariaLogo} alt="Solaria logo" />
-        <span>Política de privacidad</span>
-        <span>Políticia de cookies</span>
-        <span>Contacto</span>
+        <div>
+          <span>Política de privacidad</span>
+          <span>Políticia de cookies</span>
+          <span>Contacto</span>
+        </div>
+        <p className={styles.specificRegister}>
+          © 2023 Justnet Media Services, S.L. Servicio publicitario.
+        </p>
+        <p className={styles.specificRegister2}>
+          © 2023. Servicio publicitario.
+        </p>
       </div>
-      <p>© 2023 Justnet Media Services, S.L. Servicio publicitario.</p>
     </section>
   );
 }
